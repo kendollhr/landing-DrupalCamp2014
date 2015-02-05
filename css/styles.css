@@ -1,0 +1,49 @@
+header{
+	background: url(../img/banner-head.jpg)no-repeat;
+	background-size: 100%;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+	position: fixed;
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-left: 1rem;
+	background-color: #3983b5;
+}
+
+nav{
+	position: fixed;
+	background-color: #000;
+	right: -7%;
+	width: 99%;
+}
+
+
+li{
+	display: inline-block;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	margin-right: 6rem;
+}
+
+.ba-head{
+	margin: 0 auto;
+	display: block;
+}
+.title-header{
+	font-size: 23px;
+}
+
+.descrip{
+	color: #000;
+	font-size: 20px;
+
+}
+
+
