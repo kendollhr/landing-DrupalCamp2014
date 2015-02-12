@@ -1,3 +1,7 @@
+*{
+	text-decoration: none;
+}
+
 body{
 
 	margin: 0 auto;
@@ -54,7 +58,7 @@ header h2, h3, h5{
 	background-color: #2b2b2b;
 	width: 1000px;
 	margin: 0 auto;
-	height: 15%;
+	height: 12.8%;
 
 }
 
@@ -217,4 +221,165 @@ article.info-evento p{
 	font-weight: bold;
 	line-height: 19px;
 	margin: 2% 2% 2% 0;
+}
+
+.bocado{
+
+	background-color: #FF8000;
+	display: inline-block;
+	width: 24%;
+	margin: 4% 1% 1% 2% ;
+	padding: 3%;
+	float: left;
+}
+
+.bocado blockquote{
+
+	color: #fff;
+	font-size: 13px;
+	line-height: 18px;
+	width: 10rem;
+	margin: 0;
+	
+}
+
+.bocado  i {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    float: left;
+    border: 1em solid transparent;
+	border-left: 1em solid #FF8000;
+	border-top: 1em solid #FF8000;
+	left: 13%;
+	bottom: -48px;
+}
+
+.participantes{
+
+	background-color: rgba(0,0,0,0.05);
+	text-align: center;
+
+}
+
+.participantes h3{
+
+	color: #4A1616;
+
+}
+
+.participantes p{
+
+	color: #450000;
+	font-size: 12px;
+	margin-top: 7%;
+}
+
+.case{
+
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.backgroud-fotos{
+	
+	background: url(../img/dccr-fun.png) no-repeat center;
+	background-size: 57%;
+	background-color: rgba(0,0,0,0.9);
+	text-align: center;
+	color: #fff;
+}
+
+.backgroud{
+
+	background-color:rgba(12,17,30,0.9);
+	padding: 23% 10%;
+}
+
+.backgroud h2{
+	margin-bottom: 2%;
+	font-size: 23px;
+}
+
+.backgroud p{
+	font-size: 11px;
+}
+
+.registro{
+	
+	overflow: hidden;
+	margin-top: 3rem;
+}
+
+.registro h3{
+	text-align: center;
+	display: block;
+}
+
+.registro h4{
+
+	font-size: 13px;
+	color: #01A9DB;
+	display: block;
+	margin: 1% 0;
+	text-align: center;
+}
+
+.registro a{
+
+	display: inline-block;
+	padding: 2% 8%;
+	border: 2px solid #2ECCFA;
+	border-radius: 3px;
+	margin-left: 14rem;
+	margin-top: 2rem;
+
+}
+
+footer{
+	background-color: #2E2E2E;
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+
+footer h2{
+
+	background: url(../img/separator.png)no-repeat center;
+	background-size: 100% 100%;
+	text-indent: -9999px;
+	display: inline-block;
+	padding: 3.4% 0%;
+	margin-top: 3rem;
+
+}
+
+footer nav {
+
+	padding-top: 3rem;
+	padding-bottom: 5rem;
+
+}
+
+
+footer nav a{
+
+	color: #fff;
+	margin: 2%;
+	font-size: 13px;
+	border-bottom: 1px solid;
+	padding: 1% 1%;
+	letter-spacing: 0px;
+	font-weight: bold;
+
+}
+
+.registro h2{
+
+	font-size: 0.8rem;
+	border-bottom: 1px solid;
+	padding-bottom: 1rem;
+
 }
