@@ -1,49 +1,220 @@
+body{
+
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
 header{
-	background: url(../img/banner-head.jpg)no-repeat;
-	background-size: 100%;
-	text-align: center;
+	
+	width: 100%;
 	color: #fff;
-	margin: 0;
-	padding: 0;
+	overflow: hidden;
+	position: relative;
+	text-align: center; 
+
+}
+
+header section{
+
+	background: url(../img/banner-head.jpg)no-repeat center center;
+	background-size: 100% 105%;
+	background-size: cover;
+	overflow: hidden;
+	height: 500px;
+
+}
+
+header h2, h3, h5{
+
+	text-align: center;
+	display: block;
+	margin-bottom: 1%;
+
 }
 
 .logo{
-	position: fixed;
+
 	float: left;
 	margin: 0;
 	padding: 0;
-	margin-left: 1rem;
 	background-color: #3983b5;
+	width: 8rem;
+
 }
 
-nav{
+.logi{
+
+	width: 4rem;
+
+}
+
+.nav{
+
 	position: fixed;
-	background-color: #000;
-	right: -7%;
-	width: 99%;
+	background-color: #2b2b2b;
+	width: 1000px;
+	margin: 0 auto;
+	height: 15%;
+
 }
 
 
 li{
+
 	display: inline-block;
 	color: #fff;
 	margin: 0;
 	padding: 0;
-	margin-right: 6rem;
+	margin-right: 3rem;
+	float: left;
+	margin-left: 4rem;
+	margin-top: 1rem;
+
 }
 
 .ba-head{
+
 	margin: 0 auto;
 	display: block;
-}
-.title-header{
-	font-size: 23px;
-}
-
-.descrip{
-	color: #000;
-	font-size: 20px;
+	margin-top: 4rem;
+	width: 15%;
 
 }
 
+.mas{
 
+	text-transform: uppercase;
+	font-size: 14px;
+	border: 2px solid;
+	padding: 0.5rem 3rem;
+
+}
+
+.leave{
+
+	margin-bottom: 1rem;
+
+}
+
+.negrita{
+
+	color: #2b2b2b;
+
+}
+
+.acerca{
+
+	display: inline-block;
+	position: relative;
+	padding-bottom: 1%;
+
+}
+
+.acerca h2{
+
+	font-size: 0.8rem;
+	border-bottom: 1px solid;
+	padding-bottom: 1rem;
+
+}
+
+
+.padding{
+
+	padding: 8% 15% 11% 15%;
+
+}
+
+
+.izquierda{
+
+	float: left;
+	display: block;
+	width: 49%;
+
+}
+
+
+.derecha{
+
+ 	float: right;
+ 	display: block;
+	width: 49%;
+
+}
+
+
+.acerca section p{
+
+	margin: 1% 0 1% 0;
+	font-size: 14px;
+
+}
+
+.acerca h3{
+
+	font-size: 1.5rem;
+	width: 94%;
+	padding-left: 1.2rem;
+	padding-top: 2rem;
+	display: block;
+	float: left;
+
+}
+
+.acerca .comunidad{
+
+	font-size: 17px;
+	color: #086A87;
+	margin: 8% 0 2% 0;
+	padding-top: 2rem;
+
+}
+
+.rojo{
+
+	color: #DF0101;
+
+}
+
+.prev{
+
+	display: inline-block;
+	padding-top: 2%;
+}
+
+.prev h2{
+
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 4%;
+	padding: 1% 0;
+}
+
+article.info-evento{
+
+	background-color: rgba(0,0,0,0.05);
+	margin-bottom: 1.5rem;
+	overflow: hidden;
+	padding-bottom: 2%;
+
+}
+
+article.info-evento img{
+
+	float: left;
+	margin: 5%;
+	width: 24%;
+
+}
+
+article.info-evento p{
+
+	font-size: 13px;
+	width: 64%;
+	float: right;
+	font-weight: bold;
+	line-height: 19px;
+	margin: 2% 2% 2% 0;
+}
